@@ -15,6 +15,19 @@ public class Demo2 {
 		a = 153;
 		System.out.println(a);
 		
+		/*
+		 * 1. create a new variable named "sum"
+		 * 
+		 * 2. give it the value a + b
+		 * 
+		 * 3. print the sum
+		 * */
+		
+		int sum = a + b;
+		System.out.println(sum);
+		// syso + CTRL + space
+		// CTRL + space ====> combination for auto completion
+		
 		
 
 	}
