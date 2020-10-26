@@ -36,12 +36,19 @@ public class Point {
 		}
 	}
 	
+	public int getX() {
+		return x;
+	}
+	
 	public void setY(int val) {
 		if(val >= 0 && val <= 100) {
 			y = val;
 		}
 	}
 	
+	public int getY() {
+		return y;
+	}
 
 	// 3. METHODS - WHAT THE OBJECT CAN DO
 	// method definition has 1. return type 2. method name 3. method parameters

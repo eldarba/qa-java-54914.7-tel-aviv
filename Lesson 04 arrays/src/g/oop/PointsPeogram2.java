@@ -10,7 +10,7 @@ public class PointsPeogram2 {
 //		p.x = 5;
 //		p.y = 3;
 		
-		System.out.println(p.x + ", " + p.y);
+		System.out.println(p.getX() + ", " + p.getY());
 	}
 
 }
