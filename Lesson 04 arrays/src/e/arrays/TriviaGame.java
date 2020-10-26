@@ -1,11 +1,11 @@
-package a;
+package e.arrays;
 
 import java.util.Scanner;
 
 public class TriviaGame {
 
 	public static void main(String[] args) {
-
+		
 		System.out.println("Welcome to our Trivia game");
 		System.out.println("Please enter your name below");
 
@@ -13,14 +13,22 @@ public class TriviaGame {
 		String name = sc.nextLine();
 
 		System.out.println("Hello " + name + " nice to meet you");
-
-		// ====================== part 2
-		String questionText = "What is the capital of Albania?";
-		System.out.println(questionText);
-		System.out.println("1 ...... Jerusalem");
-		System.out.println("2 ...... Tirana");
-		System.out.println("3 ...... New York");
-		System.out.println("4 ...... Samarkand");
+		
+		// ============== array
+		
+		String text = "What is the capital of Albania?";
+		System.out.println(text);
+		
+		String[] options = new String[4];
+		options[0] = "Jerusalem";
+		options[1] = "Tirana";
+		options[2] = "New York";
+		options[3] = "Samarkand";
+		
+		for (int j = 0; j < options.length; j++) {
+			System.out.println((j + 1) + "." + options[j]);
+		}
+		// ============== array
 		
 		System.out.print("Your answer: ");
 		int userAnswer = sc.nextInt();
@@ -32,6 +40,7 @@ public class TriviaGame {
 		}
 
 		sc.close();
+
 	}
 
 }
