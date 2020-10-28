@@ -15,9 +15,12 @@ public class Person {
 		this.age = age;
 	}
 	
+	public Person() {
+	}
+	
 	// methods
 	public void speak() {
-		System.out.println(this.name + " is speaking");
+		System.out.println(name + " is speaking");
 	}
 
 	// get/set methods
